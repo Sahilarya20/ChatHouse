@@ -10,7 +10,7 @@ app.use(cors());
 
 const server = http.createServer(app); 
 
-const PORT = process.env.PORT || 30001;
+const PORT = process.env.PORT || 3001;
 
 const io = new Server(server, {
     cors: {
